@@ -4,7 +4,7 @@
     position: relative;
     width: 350px;
     height: 350px;
-    margin-left: 500px       ;
+    margin: 0 auto;
 }
 
 .container-fluid{
@@ -86,5 +86,17 @@
         font-size:32px !important;
         line-height: 50px;
         font-weight: 900;
+    }
+
+    a{
+        color: white !important;; 
+    }
+
+    ul{
+        margin-left: -200px !important;
+        margin-top:50px;
+    }
+    li{
+        background: #019875;
     }
 }
