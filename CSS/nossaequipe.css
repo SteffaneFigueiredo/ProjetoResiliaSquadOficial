@@ -1,0 +1,74 @@
+/*MENU*/
+.logo{
+    display: flex;
+    position: relative;
+    width: 350px;
+    height: 350px;
+    margin-left: 500px       ;
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: #8e9b66;
+    font-size: 20px;
+    height: 400px;
+}
+
+.navbar-collapse{
+    position: absolute;
+    margin-left: 300px !important;
+    margin-top: 350px;
+    margin-bottom: 30px;
+}
+
+.navbar-nav li{
+    padding:10px;
+}
+
+.nav-item :hover {
+    background: #c6cebb;
+    font-family: tahoma;
+    border-radius: 20px 0px 20px 0px;
+    text-decoration: none;   
+}
+/*FIM MENU*/
+
+.equipe{
+    text-align: center;
+    font-size: 50px;
+    font-family: tahoma;
+    color: #2b4521;
+    padding-top: 20px;
+}
+
+/*FOTO*/
+.mulher1, .mulher2, .mulher3, .mulher4 {
+    width: 300px;
+    height: 500px; 
+    margin-top: 50px; 
+    margin-left: 50px;
+}
+
+/*BACKGROUND-FOTO*/
+#mulher1, #mulher2, #mulher3, #mulher4{
+    display: flex;
+    width: 700px; 
+    height: 600px;
+    margin-left: 300px;
+    background: #c2d4a5;
+    border-radius: 50px 0px 50px 0px;
+    font-family: tahoma;
+}
+
+.membro1, .membro2, .membro3, .membro4{
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: center;
+}
+
+.rodape {
+    text-align: center;
+    font: 15pt Arial;
+}

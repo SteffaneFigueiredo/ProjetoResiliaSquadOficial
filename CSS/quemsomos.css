@@ -1,0 +1,55 @@
+/*MENU*/
+.logo{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    margin-left: 500px       ;
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: #8e9b66;
+    font-size: 20px;
+    height: 400px;
+}
+
+.navbar-collapse{
+    position: absolute;
+    margin-left: 300px !important;
+    margin-top: 350px;
+    margin-bottom: 30px;
+}
+
+.navbar-nav li{
+    padding:10px;
+}
+
+.nav-item :hover {
+    background: #c6cebb;
+    font-family: tahoma;
+    border-radius: 20px 0px 20px 0px;
+    text-decoration: none;   
+}
+/*FIM MENU*/
+
+.quemsomos{
+    text-align: center;
+    font-size: 50px;
+    font-family: tahoma;
+    color: #2b4521;
+    padding-top: 20px;
+}
+
+.apresentacao{
+    margin-left: 250px;
+    margin-right: 250px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.rodape {
+    text-align: center;
+    font: 15pt Arial;
+}

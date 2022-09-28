@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.logo{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    margin-left: 500px       ;
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: #8e9b66;
+    font-size: 20px;
+    height: 400px;
+}
+
+.navbar-collapse{
+    position: absolute;
+    margin-left: 300px !important;
+    margin-top: 350px;
+    margin-bottom: 30px;
+}
+
+.navbar-nav li{
+    padding:10px;
+}
+
+.nav-item :hover {
+    background: #c6cebb;
+    font-family: tahoma;
+    border-radius: 20px 0px 20px 0px;
+    text-decoration: none;   
+}
+
+
+.texto-bg{
+    color:white;
+    font-size:52px;
+    padding-top: 10%;
+    padding-left: 5%;
+    line-height: 80px;
+    letter-spacing: 5px;
+
+
+}
+
+
+.products-banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top:100px;
+    margin-bottom:100px;
+}
+
+
+.item-banner img{
+    max-width: 288px;
+    max-height: 288px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.233);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.item-banner:hover{
+    transform: scale(1.1);
+}
+
+.item-banner p{
+    text-align:center;
+    font-size:20px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.rodape {
+    text-align: center;
+    width:100%
+}
+
+@media (max-width:630px){
+    .texto-bg{
+        padding-top: 60%;
+        font-size:32px !important;
+        line-height: 50px;
+        font-weight: 900;
+    }
+}

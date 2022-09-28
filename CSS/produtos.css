@@ -1,0 +1,90 @@
+/*MENU*/
+.logo{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    margin-left: 500px       ;
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: #8e9b66;
+    font-size: 20px;
+    height: 400px;
+}
+
+.navbar-collapse{
+    position: absolute;
+    margin-left: 300px !important;
+    margin-top: 350px;
+    margin-bottom: 30px;
+}
+
+.navbar-nav li{
+    padding:10px;
+}
+
+.nav-item :hover {
+    background: #c6cebb;
+    font-family: tahoma;
+    border-radius: 20px 0px 20px 0px;
+    text-decoration: none;    
+}
+/*FIM MENU*/
+
+
+.produtostexto{
+    text-align: center;
+    font-family: tahoma, 'sans-serif';
+    font-size: 50px;
+    color: #2b4521;
+    padding-top: 20px;
+}
+
+#container2 {
+    width: 100%;
+    margin: 20px;
+    padding: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.produto1, .produto2, .produto3, .produto4, .produto5, .produto6, .produto7, .produto8, .produto9, .produto10{
+    display: inline-table;
+    border: 1px solid black; 
+    margin: 5px;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+    font-family: tahoma;
+}
+
+#serum, #demaquilante, #demaquilante, #hidratante, #argilas, #base, #blush, #pocompacto, #batom, #sombra, #rimel {
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    float: left;
+}
+
+a.linkproduto:link, a.linkproduto:visited{
+    text-decoration: none;
+    font-size: 15px;
+    background: #2b4521;
+    color: #ffffff;
+    padding: 10px;
+    padding-top: 10px;
+}
+
+
+a.linkproduto:hover{
+    background: #8e9b66;
+}
+
+.rodape {
+    text-align: center;
+    font: 15pt Arial;
+}
